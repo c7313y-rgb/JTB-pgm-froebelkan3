@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JTB 東京着地型 探究プログラムポータル</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand"><span>JTB</span> 東京着地型探究プログラム</div>
+      <div class="navlinks">
+        <a href="#programs">企業プログラム</a><a href="#froebel">フレーベル館</a><a href="#estimate">見積り</a><a href="#gallery">展示・販売</a><a href="#biz">ビジネス甲子園</a>
+      </div>
+    </nav>
+    <div class="heroGrid">
+      <div>
+        <p class="eyebrow">2泊3日の修学旅行に、企業連携の探究学習を組み込む</p>
+        <h1>東京で体験し、地域に還す。<br>学校・企業・JTBをつなぐ探究プログラムサイト</h1>
+        <p class="lead">企業選択、期間設定、受講人数、概算見積、JTB送信用データ生成、展示販売コーナーまでを一体化したGitHub Pages公開用デモです。</p>
+        <div class="heroActions"><a class="btn primary" href="#estimate">見積りを作成</a><a class="btn ghost" href="#programs">プログラムを見る</a></div>
+        <div class="statRow"><div><b>30万人</b><span>東京方面修学旅行想定</span></div><div><b>1日</b><span>タビナカ体験枠</span></div><div><b>3段階</b><span>タビマエ・ナカ・アト</span></div></div>
+      </div>
+      <div class="heroCard"><img src="./assets/images/a_wide_urban_cityscape_scene_at_dusk_sunset_overa.png" alt="東京での探究型修学旅行イメージ"><div class="shine"></div></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div class="sectionTitle"><p>Concept</p><h2>イベントではなく、探究成果が残る旅へ</h2></div>
+      <div class="steps">
+        <article><span>01</span><h3>タビマエ</h3><p>企業テーマを理解し、地域産品・作り手・顧客仮説を調査。班ごとにPOP、販売トーク、SNS告知案を作成。</p></article>
+        <article><span>02</span><h3>タビナカ</h3><p>東京の企業拠点で実顧客接点を体験。販売・観察・QR誘導・反応記録を通じて仮説を検証。</p></article>
+        <article><span>03</span><h3>タビアト</h3><p>販売結果、企業講評、レポート、表彰、ビジネス甲子園導線により、キャリア形成と地域発信へ接続。</p></article>
+      </div>
+    </section>
+
+    <section id="programs" class="section darkPanel">
+      <div class="sectionTitle light"><p>Program Catalog</p><h2>企業プログラムを検索・選択</h2></div>
+      <div class="toolbar">
+        <input id="programSearch" placeholder="企業名・業種・テーマで検索" />
+        <select id="categoryFilter"><option value="all">すべての業種</option><option>小売・サービス</option><option>出版社・教育</option><option>メーカー</option><option>IT・プラットフォーム</option></select>
+      </div>
+      <div id="programList" class="cards"></div>
+    </section>
+
+    <section id="estimate" class="section estimator">
+      <div class="sectionTitle"><p>Estimate & JTB Data</p><h2>条件を入れて概算見積り・JTB送信用データを生成</h2></div>
+      <div class="estimateGrid">
+        <form id="estimateForm" class="glassForm">
+          <label>学校名<input id="schoolName" value="○○県立サンプル高校"></label>
+          <label>地域<input id="region" value="長野県松本市"></label>
+          <label>選択プログラム<select id="programSelect"></select></label>
+          <div class="two"><label>開始日<input id="startDate" type="date" value="2026-10-15"></label><label>終了日<input id="endDate" type="date" value="2026-10-17"></label></div>
+          <div class="two"><label>受講生徒人数<input id="students" type="number" min="1" value="100"></label><label>教員人数<input id="teachers" type="number" min="0" value="6"></label></div>
+          <label>希望メモ<textarea id="note">地元産品の販売体験と事後発表まで希望。JTB指定サイトで正式申込予定。</textarea></label>
+          <button class="btn primary full" type="submit">見積り・送信用データを更新</button>
+        </form>
+        <aside class="quoteBox">
+          <h3>概算見積り</h3>
+          <div id="quoteResult"></div>
+          <div class="ctaStack"><button id="copyPayload" class="btn ghost">JTB送信用JSONをコピー</button><a id="jtblink" class="btn primary" target="_blank" rel="noopener">JTB指定サイトで正式申込</a></div>
+          <pre id="payloadBox"></pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="mi" class="section miFeature">
+      <div class="miText"><p class="eyebrow">Demo Program</p><h2>三越伊勢丹｜地域産品マーケティング探究 in 銀座</h2><p>地方の魅力ある産品を、百貨店の顧客にどう届けるか。学校で事前調査し、銀座三越で接客・POP・QR誘導・顧客反応を検証し、事後学習で地域発信へ接続します。</p><ul><li>対象：東京方面修学旅行の中学校・高校</li><li>標準：1校100名、最低催行77名目安</li><li>単価：7,800円／生徒・税別デモ設定</li><li>場所：銀座三越9階公開空地想定</li></ul></div>
+      <div class="imageStack"><img src="./assets/images/a_bright_modern_indoor_shopping_department_store.png" alt="百貨店販売体験"><img src="./assets/images/a_realistic_indoor_workshop_warehouse_scene_with_n.png" alt="産品開拓ヒアリング"></div>
+    </section>
+
+
+    <section id="froebel" class="section froebelFeature">
+      <div class="sectionTitle"><p>Added Demo Program</p><h2>フレーベル館｜AI絵本メーカー 修学旅行探究プログラム</h2></div>
+      <div class="froebelGrid">
+        <div class="froebelHero">
+          <span class="tag pink">出版社・教育</span>
+          <h3>未来を描く、僕らの物語</h3>
+          <p>修学旅行で見た景色・聞いた話・地域課題を、AIと編集知見を使って絵本・物語に変換する探究プログラムです。作家・編集者の講評、AIリテラシー、作品展示までを一体化します。</p>
+          <ul class="checkList">
+            <li>対象：中学校・高校の修学旅行生</li>
+            <li>標準単価：7,800円／生徒・税別デモ設定</li>
+            <li>標準導線：タビマエ構想 → タビナカ制作 → タビアト展示・講評</li>
+            <li>正式紹介ページ：JTB-pgm-froebelkan へリンク</li>
+          </ul>
+          <div class="heroActions"><button class="btn primary" onclick="selectProgram('froebel')">このプログラムで見積る</button><a class="btn ghost" href="https://c7313y-rgb.github.io/JTB-pgm-froebelkan/" target="_blank" rel="noopener">詳細デモを見る</a></div>
+        </div>
+        <div class="froebelCards">
+          <article><b>01 タビマエ</b><span>旅で集めたいテーマ、主人公、地域課題、読み手を決める。</span></article>
+          <article><b>02 タビナカ</b><span>AIで絵本を試作し、作家・編集者視点で表現を磨く。</span></article>
+          <article><b>03 タビアト</b><span>学校別・地域別に作品展示。優秀作品を講評・表彰へ接続。</span></article>
+        </div>
+      </div>
+      <div class="workShowcase">
+        <h3>展示イメージ｜生徒作品ギャラリー</h3>
+        <div id="storyGrid" class="storyGrid"></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallerySec">
+      <div class="sectionTitle"><p>Regional Showcase</p><h2>学校・地域ごとの展示販売コーナー</h2></div>
+      <div class="toolbar"><input id="productSearch" placeholder="商品名・学校・地域で検索" /><select id="regionFilter"><option value="all">全地域</option></select></div>
+      <div id="productGrid" class="productGrid"></div>
+    </section>
+
+    <section id="biz" class="section biz">
+      <div><p class="eyebrow">Realize Co., Ltd.</p><h2>ビジネス甲子園への継続導線</h2><p>タビアト後、希望校・希望生徒は地域産品のマーケティング、商品企画、販売改善を継続学習。修学旅行で終わらせず、学校の探究成果を次の発表・コンテストへ接続します。</p><div class="heroActions"><a class="btn primary" href="https://example.com/business-koshien" target="_blank" rel="noopener">ビジネス甲子園に申し込む</a><button class="btn ghost" id="bizInterest">資料請求データを作成</button></div></div>
+      <img src="./assets/images/a_bright_indoor_office_classroom_scene_with_a_grou.png" alt="表彰・評価シーン">
+    </section>
+  </main>
+
+  <footer><b>JTB 東京着地型探究プログラム デモ</b><span>本番公開時はJTB指定申込URL、決済URL、個人情報同意、企業承認フローを差し替えてください。</span></footer>
+  <div id="toast" class="toast">コピーしました</div>
+  <script src="./app.js"></script>
+</body>
+</html>
