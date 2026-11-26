@@ -1,0 +1,131 @@
+{
+  "notice_ja": "写真・動画は活用シーンのイメージとして使用する実写ストック素材です。本プログラムの実施校・参加者を撮影したものではありません。",
+  "license_summary_ja": "Pexelsの無料ライセンスでウェブサイトおよび広告利用・編集が許可されています。人物・ブランドが本プログラムを推奨しているとの表現は行いません。",
+  "assets": [
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "classroom.jpg",
+      "creator": "Max Fischer",
+      "title": "A Children Looking the Laptop",
+      "source_url": "https://www.pexels.com/photo/a-children-looking-the-laptop-5212687/",
+      "download_url": "https://images.pexels.com/photos/5212687/pexels-photo-5212687.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "modifications": "Resized through Pexels image CDN.",
+      "description": "Overseas classroom collaboration with teacher and school-age students.",
+      "bytes": 208954,
+      "sha256": "3b3f70b2063f0c299cfd45cddfc90b2a3ea2b909d2de48f1cf11104b29e90169",
+      "dimensions": [
+        1600,
+        1067
+      ]
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "community.jpg",
+      "creator": "Huy Phan",
+      "title": "Busy Japanese Market Scene with Multiple Shoppers",
+      "source_url": "https://www.pexels.com/photo/busy-japanese-market-scene-with-multiple-shoppers-34991522/",
+      "download_url": "https://images.pexels.com/photos/34991522/pexels-photo-34991522.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "modifications": "Resized through Pexels image CDN.",
+      "description": "Interaction between a Japanese market vendor and shoppers; regional-exchange illustration.",
+      "bytes": 284513,
+      "sha256": "f914f17fa89b65749469b41e371dfc0f8abfd93b31360eed5926f7b899623850",
+      "dimensions": [
+        1600,
+        1067
+      ]
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "japanese-classroom.jpg",
+      "creator": "ON VIXION",
+      "title": "日本教室",
+      "source_url": "https://www.pexels.com/photo/20211339/",
+      "download_url": "https://images.pexels.com/photos/20211339/pexels-photo-20211339.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "modifications": "Resized through Pexels image CDN.",
+      "description": "Empty classroom in Asahikawa, Hokkaido, Japan.",
+      "bytes": 260581,
+      "sha256": "fa9426c2a7d1e3a355ec1d62fcdf507541ee846b4b138746d9fd1d216ec2ae24",
+      "dimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "kyoto.mp4",
+      "creator": "Ali Alcántara",
+      "title": "Traditional Kyoto Street Scene with Kimono-Clad People",
+      "source_url": "https://www.pexels.com/video/traditional-kyoto-street-scene-with-kimono-clad-people-31385030/",
+      "download_url": "https://videos.pexels.com/video-files/31385030/13392175_1920_1080_30fps.mp4",
+      "modifications": "Downscaled to 1280px width, H.264 CRF26, audio removed.",
+      "description": "Live-action Kyoto street and Yasaka pagoda; 6 seconds. Not a school group.",
+      "bytes": 866108,
+      "sha256": "ba0bc34502abb179bbf888f2276ebaae570471dbb03dd2c481c64a7fd93a6ab9"
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "kyoto-poster.jpg",
+      "creator": "Ali Alcántara",
+      "title": "Poster for Traditional Kyoto Street Scene with Kimono-Clad People",
+      "source_url": "https://www.pexels.com/video/traditional-kyoto-street-scene-with-kimono-clad-people-31385030/",
+      "download_url": "https://images.pexels.com/videos/31385030/authentic-japan-cultural-japan-historic-kyoto-kimono-31385030.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "modifications": "Frame extracted at 1 second from resized kyoto.mp4.",
+      "description": "Poster for kyoto.mp4.",
+      "bytes": 59238,
+      "sha256": "4d77e4c92f8db660050a512d50e2ed511283189fa8bab778a85e84e5cdc83ea6",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "classroom.mp4",
+      "creator": "Alena Darmel",
+      "title": "Kids Using Laptop in the Classroom",
+      "source_url": "https://www.pexels.com/video/kids-using-laptop-in-the-classroom-7730014/",
+      "download_url": "https://videos.pexels.com/video-files/7730014/7730014-uhd_2160_3840_25fps.mp4",
+      "modifications": "Downscaled to 720px width, H.264 CRF26, audio removed.",
+      "description": "Live-action children with teacher exploring robotics/laptop; 9 seconds; portrait framing; overseas setting.",
+      "bytes": 875599,
+      "sha256": "a68ec760fb872d620049943787a6fb6b33e416738fc4388acfa9e000a6836a43"
+    },
+    {
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_on": "2026-11-27",
+      "usage": "Website marketing / illustrative learning scenes; no endorsement implied.",
+      "file": "classroom-poster.jpg",
+      "creator": "Alena Darmel",
+      "title": "Poster for Kids Using Laptop in the Classroom",
+      "source_url": "https://www.pexels.com/video/kids-using-laptop-in-the-classroom-7730014/",
+      "download_url": "https://videos.pexels.com/video-files/7730014/7730014-uhd_2160_3840_25fps.mp4",
+      "modifications": "Frame extracted at 1 second from resized classroom.mp4.",
+      "description": "Poster for classroom.mp4.",
+      "bytes": 35099,
+      "sha256": "2fee0e5a99e81092544dce6fa668ad467dc8e2bab21471c451ade963cac6e60b",
+      "dimensions": [
+        720,
+        1280
+      ]
+    }
+  ]
+}
